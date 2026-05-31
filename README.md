@@ -240,19 +240,13 @@ Converts raw itinerary JSON into validated object models.
 Input:
 
 ```text
-JSON / CSV
+JSON
 ```
 
 Output:
 
 ```python
 Itinerary object
-```
-
-Example:
-
-```python
-trip.flights[0].departure_time
 ```
 
 ---
@@ -331,20 +325,6 @@ LLM Summarizer
         ↓
 Readable travel summary
 ```
-
----
-
-## Future Improvements
-
-- Streamlit UI
-- File upload support
-- CSV support
-- Flight API integration
-- Weather enrichment
-- Travel recommendation engine
-- RAG for airport/city-specific travel tips
-- Voice itinerary assistant
-- Multilingual summaries
 
 ---
 
